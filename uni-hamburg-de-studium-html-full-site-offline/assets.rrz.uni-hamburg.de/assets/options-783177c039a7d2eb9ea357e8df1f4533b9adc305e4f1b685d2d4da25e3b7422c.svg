@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.99" height="20" viewBox="0 0 33.99 20">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .a, .b {
+        stroke: #bbb;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        fill: #fff;
+      }
+
+      .c {
+        fill: #bbb;
+      }
+    </style>
+  </defs>
+  <title>options</title>
+  <line class="a" x1="2.46" y1="0.5" x2="2.46" y2="19.5"/>
+  <line class="a" x1="17.46" y1="0.5" x2="17.46" y2="19.5"/>
+  <line class="a" x1="10.46" y1="0.5" x2="10.46" y2="19.5"/>
+  <circle class="b" cx="2.48" cy="5.9" r="1.98"/>
+  <circle class="b" cx="10.48" cy="13.9" r="1.98"/>
+  <circle class="b" cx="17.48" cy="7.9" r="1.98"/>
+  <polyline class="c" points="33.99 10 30.46 13.54 26.92 10"/>
+</svg>

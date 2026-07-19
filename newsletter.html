@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Newsletter · Universität Hamburg</title>
+<meta name="theme-color" content="#0271bb" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="uhh-icon.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="uhh-style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="uhh-metabar">
+      <div class="uhh-metabar-inner">
+        <a href="index.html">Universität Hamburg</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="impressum.html#datenschutz">Datenschutz</a>
+      </div>
+    </div>
+    <div class="site-header-top">
+      <a class="site-brand" href="index.html">
+        <img src="uhh-logo-full.png" alt="Universität Hamburg" />
+      </a>
+      <button class="nav-toggle" type="button" aria-hidden="true">Menü</button>
+    </div>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html">Studierendenservice</a></li>
+        <li><a href="studium.html">Studium</a></li>
+        <li><a href="aktuelles.html">Aktuelles</a></li>
+        <li><a href="campus.html">Campusleben</a></li>
+        <li><a href="newsletter.html" class="active">Newsletter</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Newsletter</p>
+      <h1>Einmal pro Woche das Wichtigste</h1>
+      <p>
+        Fristen, Termine und Meldungen kompakt zusammengefasst — jeden Montagmorgen. So sieht ein
+        typisches Anmeldeformular aus.
+      </p>
+    </div>
+  </div>
+
+  <p class="breadcrumb"><a href="index.html">Startseite</a> › Newsletter</p>
+
+  <main>
+
+    <div class="layout-2col" style="margin-top: 34px;">
+      <div>
+
+        <section style="margin-top: 0;">
+          <h2 class="section-title">Anmeldung</h2>
+
+          <div class="newsletter-box" style="margin-top: 22px;">
+            <h3>Wöchentlicher Studien-Newsletter</h3>
+            <p>
+              Trage dich ein, um jeden Montag eine Übersicht über anstehende Fristen, neue Meldungen
+              und Veranstaltungen zu erhalten. Die Abmeldung ist jederzeit über den Link am Ende
+              jeder Ausgabe möglich.
+            </p>
+
+            <form id="newsletter-form" novalidate>
+              <div class="form-row">
+                <input type="text" name="vorname" placeholder="Vorname" autocomplete="off" />
+                <input type="text" name="nachname" placeholder="Nachname" autocomplete="off" />
+              </div>
+              <div class="form-row">
+                <input type="email" name="email" placeholder="E-Mail-Adresse" autocomplete="off" />
+              </div>
+
+              <label class="checkbox-row">
+                <input type="checkbox" name="einwilligung" />
+                <span>
+                  Ich möchte den Newsletter erhalten und bin mit der Verarbeitung meiner Angaben zu
+                  diesem Zweck einverstanden. (Demo — es findet keine Verarbeitung statt.)
+                </span>
+              </label>
+
+              <button class="btn btn-solid" type="submit">Newsletter abonnieren</button>
+
+              <p class="form-status" id="form-status">
+                <strong>Nur eine Demo.</strong> Es wurde nichts gesendet und nichts gespeichert. Das
+                Formular zeigt lediglich, wie eine Anmeldung gestaltet sein könnte.
+              </p>
+            </form>
+          </div>
+
+          <div class="notice-inline">
+            Dieses Formular hat bewusst keine Funktion. Es gibt keinen Server, keine Datenbank und
+            keinen Versand. Alle Eingaben bleiben im Browser und verschwinden beim Neuladen.
+          </div>
+        </section>
+
+        <section id="archiv">
+          <h2 class="section-title">Bisherige Ausgaben</h2>
+          <p class="section-lead">
+            Ein Blick in das Archiv — die Ausgaben sind erfundene Beispiele.
+          </p>
+
+          <ul class="archive-list">
+            <li class="archive-item">
+              <span class="issue">Ausgabe 21 · 1. Juni 2026</span>
+              <h3>Rückmeldung startet, Stabi verlängert Öffnungszeiten</h3>
+              <p>
+                Schwerpunkt: Rückmeldefristen für das Wintersemester. Außerdem im Heft: längere
+                Bibliotheksöffnung, neue Sprechzeiten der Studienfachberatung und das Sommerprogramm
+                des Hochschulsports.
+              </p>
+            </li>
+            <li class="archive-item">
+              <span class="issue">Ausgabe 20 · 25. Mai 2026</span>
+              <h3>Prüfungsanmeldung läuft — was jetzt zu tun ist</h3>
+              <p>
+                Checkliste zur Anmeldung, häufige Stolperfallen beim Rücktritt und ein Interview mit
+                der Studienfachberatung zur Planung der Prüfungsphase.
+              </p>
+            </li>
+            <li class="archive-item">
+              <span class="issue">Ausgabe 19 · 18. Mai 2026</span>
+              <h3>Auslandssemester: Bewerbungsphase eröffnet</h3>
+              <p>
+                Überblick über Partneruniversitäten, Fristen und das Learning Agreement. Dazu ein
+                Erfahrungsbericht aus dem vergangenen Studienjahr.
+              </p>
+            </li>
+            <li class="archive-item">
+              <span class="issue">Ausgabe 18 · 11. Mai 2026</span>
+              <h3>Neues Abendangebot in der Mensa</h3>
+              <p>
+                Das Studierendenwerk erweitert die Öffnungszeiten. Außerdem: Fahrradstellplätze werden
+                ausgebaut, und der Debattierclub sucht Nachwuchs.
+              </p>
+            </li>
+            <li class="archive-item">
+              <span class="issue">Ausgabe 17 · 4. Mai 2026</span>
+              <h3>Semesterstart-Bilanz und Sommerkurse</h3>
+              <p>
+                Rückblick auf die ersten Vorlesungswochen, Hinweise zum Druckkontingent und der
+                Anmeldestart für die Sommerkurse des Hochschulsports.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="section-title">Was drinsteht</h2>
+          <div class="prose" style="margin-top: 22px;">
+            <p>
+              Jede Ausgabe folgt derselben Struktur, damit sich die Lektüre in wenigen Minuten
+              erledigen lässt:
+            </p>
+            <ul>
+              <li><strong>Fristen der Woche</strong> — was in den nächsten sieben Tagen abläuft</li>
+              <li><strong>Drei Meldungen</strong> — kurz zusammengefasst, mit Link zur Langfassung</li>
+              <li><strong>Termine</strong> — Veranstaltungen auf und um den Campus</li>
+              <li><strong>Ein Tipp</strong> — von Lerngruppen bis Fahrradwerkstatt</li>
+            </ul>
+            <div class="pull-quote">
+              „Kurz genug, um es in der Bahn zu lesen — lang genug, um keine Frist zu verpassen."
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="sidebar-box">
+          <h4>Erscheinungsweise</h4>
+          <ul>
+            <li><strong>Rhythmus:</strong> wöchentlich, montags</li>
+            <li><strong>Umfang:</strong> ca. 4 Minuten Lesezeit</li>
+            <li><strong>Sprache:</strong> Deutsch</li>
+            <li><strong>Abmeldung:</strong> jederzeit möglich</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-box">
+          <h4>Weitere Newsletter</h4>
+          <ul>
+            <li><a href="#">Hochschulsport — monatlich</a></li>
+            <li><a href="#">International Office — quartalsweise</a></li>
+            <li><a href="#">Bibliothek — monatlich</a></li>
+          </ul>
+          <p style="margin-top:12px; font-size:11.5px; color:#888;">
+            Platzhalter-Links ohne Ziel.
+          </p>
+        </div>
+
+        <div class="sidebar-box">
+          <h4>Fragen?</h4>
+          <p>
+            Zu Inhalt und Abmeldung hilft der Studierendenservice weiter. Kontaktangaben stehen im
+            Impressum.
+          </p>
+          <a class="btn btn-solid" href="impressum.html">Zum Impressum</a>
+        </div>
+      </aside>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Studierendenservice</h4>
+        <ul>
+          <li><a href="index.html#ausweis">Studierendenausweis</a></li>
+          <li><a href="index.html#weitere-angaben">Weitere Angaben</a></li>
+          <li><a href="studium.html">Studium &amp; Fristen</a></li>
+          <li><a href="studium.html#faq">Häufige Fragen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Universität</h4>
+        <ul>
+          <li><a href="aktuelles.html">Aktuelles</a></li>
+          <li><a href="campus.html">Campusleben</a></li>
+          <li><a href="campus.html#termine">Termine</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="impressum.html#datenschutz">Datenschutz</a></li>
+          <li><a href="#" id="open-cookie-settings">Cookie-Einstellungen</a></li>
+          <li><a href="impressum.html#barrierefreiheit">Barrierefreiheit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Private, nicht-offizielle Übungsseite ohne Verbindung zur Universität Hamburg. Kein amtliches
+      Dokument, kein Immatrikulationsnachweis. Alle Inhalte sind frei erfunden.
+    </div>
+  </footer>
+
+  <div class="cookie-overlay" id="cookie-overlay">
+    <div class="cookie-modal">
+      <h2>Cookie-Einstellungen</h2>
+      <p>
+        Wir verwenden auf dieser Seite Cookies und ähnliche Technologien, um grundlegende Funktionen
+        bereitzustellen und die Darstellung zu optimieren. Sie können Ihre Auswahl jederzeit über den
+        Link „Cookie-Einstellungen" im Seitenfuß anpassen.
+      </p>
+
+      <details class="cookie-accordion" data-required>
+        <summary>Technisch notwendige Cookies <span class="toggle-pill">immer aktiv</span></summary>
+        <div class="accordion-body">
+          Diese Kategorie umfasst Cookies und lokale Speicherfunktionen, die für den grundlegenden Betrieb
+          der Seite erforderlich sind. Zur Einordnung: Diese Seite ist eine private, nicht-offizielle
+          Übungsseite mit einer Nachbildung eines Studierendenausweises der Universität Hamburg. Sie
+          besitzt keine rechtliche Gültigkeit als amtliches Ausweisdokument, dient nicht dem Nachweis der
+          Immatrikulation gegenüber Dritten und wird nicht von der Universität Hamburg betrieben, geprüft
+          oder autorisiert. Das Newsletter-Formular ist eine Demo ohne Datenverarbeitung.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Präferenzen &amp; Anzeige <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Speichert Anzeigeeinstellungen wie zuletzt verwendete Ansichten.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Statistik <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Diese Seite bindet keine externen Statistik- oder Tracking-Dienste ein.
+        </div>
+      </details>
+
+      <div class="cookie-buttons">
+        <button class="btn-necessary" id="btn-necessary" type="button">Nur notwendige</button>
+        <button class="btn-accept-all" id="btn-accept-all" type="button">Alle akzeptieren</button>
+      </div>
+
+      <p class="cookie-fine-print">
+        Mit Klick auf „Alle akzeptieren" oder „Nur notwendige" bestätigen Sie, die Hinweise in den
+        technisch notwendigen Cookies zur Kenntnis genommen zu haben.
+      </p>
+    </div>
+  </div>
+
+  <script src="site.js"></script>
+</body>
+</html>

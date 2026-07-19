@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Leichte Sprache</title>
+    <g id="Leichte-Sprache" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M19.75,7.4045085 L19.75,18.8267499 L12,21.7329999 L4.25,18.8267499 L4.25,7.4045085 L12,11.2795085 L19.75,7.4045085 Z" id="Rectangle" stroke="#0271BB" stroke-width="0.5" fill="#FFFFFF"></path>
+        <line x1="12" y1="11.5256348" x2="12" y2="21.4625244" id="Line" stroke="#0271BB" stroke-width="0.5" stroke-linecap="square"></line>
+        <circle id="Oval" stroke="#0271BB" stroke-width="0.5" fill="#FFFFFF" cx="12" cy="5" r="3.75"></circle>
+    </g>
+</svg>

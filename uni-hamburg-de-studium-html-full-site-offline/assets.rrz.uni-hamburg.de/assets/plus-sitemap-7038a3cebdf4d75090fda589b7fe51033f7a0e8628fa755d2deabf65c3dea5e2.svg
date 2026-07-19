@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #ffffff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>plus</title>
+  <line class="a" y1="4.5" x2="9" y2="4.5"/>
+  <line class="a" x1="4.5" y1="9" x2="4.5"/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="32px" viewBox="0 0 72 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 46 0 46 32 0 32"></polygon>
+        <rect id="path-3" x="25" y="0" width="47" height="32"></rect>
+    </defs>
+    <g id="icon-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="8" width="19" height="3"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="0" y="22" width="19" height="3"></rect>
+        <rect id="Rectangle-Copy-35" fill="#FFFFFF" x="8.44444444" y="15" width="10.5555556" height="3"></rect>
+        <g id="Mask" transform="translate(26.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g></g>
+            <polygon id="Path" stroke="#FFFFFF" stroke-width="3" mask="url(#mask-2)" points="1.76035199 1.77181084 23 19.3714049 44.4989794 1.77181084"></polygon>
+        </g>
+        <mask id="mask-4" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect stroke="#FFFFFF" stroke-width="3" x="26.5" y="1.5" width="44" height="29"></rect>
+    </g>
+</svg>

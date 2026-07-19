@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Campusleben · Universität Hamburg</title>
+<meta name="theme-color" content="#0271bb" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="uhh-icon.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="uhh-style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="uhh-metabar">
+      <div class="uhh-metabar-inner">
+        <a href="index.html">Universität Hamburg</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="impressum.html#datenschutz">Datenschutz</a>
+      </div>
+    </div>
+    <div class="site-header-top">
+      <a class="site-brand" href="index.html">
+        <img src="uhh-logo-full.png" alt="Universität Hamburg" />
+      </a>
+      <button class="nav-toggle" type="button" aria-hidden="true">Menü</button>
+    </div>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html">Studierendenservice</a></li>
+        <li><a href="studium.html">Studium</a></li>
+        <li><a href="aktuelles.html">Aktuelles</a></li>
+        <li><a href="campus.html" class="active">Campusleben</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Campusleben</p>
+      <h1>Zwischen Vorlesung und Alster</h1>
+      <p>
+        Mensa, Hochschulsport, Initiativen und Veranstaltungen — was den Campus außerhalb der
+        Seminarräume ausmacht.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#termine">Termine ansehen</a>
+        <a class="btn btn-ghost" href="#galerie">Zur Galerie</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="breadcrumb"><a href="index.html">Startseite</a> › Campusleben</p>
+
+  <main>
+
+    <section style="margin-top: 20px;">
+      <h2 class="section-title">Der Campus in Zahlen</h2>
+      <p class="section-lead">
+        Ein paar Eckdaten zum Standort — auch diese Werte sind für die Übungsseite frei erfunden.
+      </p>
+      <div class="stat-row">
+        <div class="stat"><span class="num">120</span><span class="cap">Sportkurse</span></div>
+        <div class="stat"><span class="num">7</span><span class="cap">Mensen &amp; Cafés</span></div>
+        <div class="stat"><span class="num">45</span><span class="cap">Initiativen</span></div>
+        <div class="stat"><span class="num">2.400</span><span class="cap">Arbeitsplätze</span></div>
+      </div>
+    </section>
+
+    <section id="mensa">
+      <h2 class="section-title">Essen auf dem Campus</h2>
+      <p class="section-lead">
+        Sieben Mensen und Cafés versorgen den Campus. Der Speiseplan wechselt wöchentlich, ein
+        vegetarisches und ein veganes Gericht sind täglich im Angebot.
+      </p>
+
+      <div class="layout-2col">
+        <div>
+          <div class="prose">
+            <h2>Speiseplan der Woche</h2>
+            <p>
+              Die folgenden Gerichte sind Beispiele und stehen stellvertretend für ein typisches
+              Wochenangebot.
+            </p>
+            <div class="table-scroll">
+              <table class="data-table">
+                <thead>
+                  <tr><th>Tag</th><th>Gericht</th><th>Preis (Stud.)</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Montag</td><td>Linsencurry mit Reis (vegan)</td><td>2,80 €</td></tr>
+                  <tr><td>Dienstag</td><td>Ofengemüse mit Kräuterquark</td><td>3,10 €</td></tr>
+                  <tr><td>Mittwoch</td><td>Nudelauflauf mit Spinat</td><td>2,90 €</td></tr>
+                  <tr><td>Donnerstag</td><td>Kichererbsen-Bowl</td><td>3,40 €</td></tr>
+                  <tr><td>Freitag</td><td>Backfisch mit Kartoffelsalat</td><td>3,90 €</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2>Neu: Abendangebot</h2>
+            <p>
+              Seit Juni gibt es dienstags und donnerstags bis 20 Uhr ein warmes Abendessen in der
+              Mensa Von-Melle-Park. Das Angebot richtet sich vor allem an Studierende mit
+              Abendveranstaltungen und umfasst zwei wechselnde Gerichte sowie eine Salatbar.
+            </p>
+          </div>
+        </div>
+
+        <aside>
+          <div class="sidebar-box">
+            <h4>Öffnungszeiten</h4>
+            <ul>
+              <li>Mensa Von-Melle-Park<br/>Mo–Fr 11:00–15:00</li>
+              <li>Café Campus<br/>Mo–Fr 08:00–18:00</li>
+              <li>Mensa Stellingen<br/>Mo–Fr 11:30–14:30</li>
+            </ul>
+          </div>
+          <div class="sidebar-box">
+            <h4>Bezahlen</h4>
+            <p>
+              Gezahlt wird bargeldlos über das Mensa-Konto. Aufladen ist an den Automaten in den
+              Foyers möglich.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sport">
+      <h2 class="section-title">Hochschulsport</h2>
+      <p class="section-lead">
+        Rund hundertzwanzig Kurse pro Semester, vom Anfängerkurs bis zum Wettkampftraining. Die
+        Anmeldung erfolgt online, beliebte Kurse sind meist innerhalb weniger Minuten belegt.
+      </p>
+
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="cover cover-sport"></div>
+          <div class="news-body">
+            <span class="tag">Sommerprogramm</span>
+            <h3>Beachvolleyball am Alsterufer</h3>
+            <p>
+              Dienstags und freitags, 18–20 Uhr. Für Einsteigerinnen und Einsteiger geeignet,
+              Ausrüstung wird gestellt.
+            </p>
+            <span class="news-meta">15 € pro Semester</span>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="cover cover-alster"></div>
+          <div class="news-body">
+            <span class="tag">Wassersport</span>
+            <h3>Stand-up-Paddling auf der Alster</h3>
+            <p>
+              Kompaktkurse an Wochenenden, inklusive Materialverleih und kurzer Sicherheitseinweisung.
+            </p>
+            <span class="news-meta">28 € pro Kurs</span>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="cover cover-campus"></div>
+          <div class="news-body">
+            <span class="tag">Laufen</span>
+            <h3>Lauftreff am Von-Melle-Park</h3>
+            <p>
+              Montags 17:30 Uhr, drei Gruppen nach Tempo. Ohne Anmeldung, einfach dazukommen.
+            </p>
+            <span class="news-meta">kostenfrei</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="termine">
+      <h2 class="section-title">Termine</h2>
+      <p class="section-lead">Veranstaltungen der kommenden Wochen.</p>
+
+      <ul class="event-list">
+        <li class="event">
+          <span class="when">12. Juni · 18:00</span>
+          <span class="what">Vollversammlung des Fachschaftsrats</span>
+          <span class="where">Hörsaal C</span>
+        </li>
+        <li class="event">
+          <span class="when">17. Juni · 19:30</span>
+          <span class="what">Sommerkonzert des Universitätsorchesters</span>
+          <span class="where">Aula</span>
+        </li>
+        <li class="event">
+          <span class="when">24. Juni · 16:00</span>
+          <span class="what">Infoveranstaltung Auslandssemester</span>
+          <span class="where">Raum 108</span>
+        </li>
+        <li class="event">
+          <span class="when">28. Juni · 14:00</span>
+          <span class="what">Campusfest mit Bühne und Foodtrucks</span>
+          <span class="where">Von-Melle-Park</span>
+        </li>
+        <li class="event">
+          <span class="when">03. Juli · 18:30</span>
+          <span class="what">Podiumsdiskussion: Wohnraum in Hamburg</span>
+          <span class="where">Hörsaal A</span>
+        </li>
+        <li class="event">
+          <span class="when">09. Juli · 20:00</span>
+          <span class="what">Semesterabschlussparty der Fachschaft</span>
+          <span class="where">Studierendenhaus</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="initiativen">
+      <h2 class="section-title">Initiativen und Gruppen</h2>
+      <p class="section-lead">
+        Rund fünfundvierzig studentische Gruppen sind am Standort aktiv — eine kleine Auswahl.
+      </p>
+
+      <div class="article-list">
+        <div class="article-item">
+          <div class="article-date"><span class="d">01</span><span class="m">FSR</span></div>
+          <div>
+            <h3>Fachschaftsrat Wirtschaftswissenschaften</h3>
+            <p>Vertritt die Studierenden des Fachbereichs, organisiert Erstsemesterwochen und Altklausurenarchiv.</p>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-date"><span class="d">02</span><span class="m">Umw</span></div>
+          <div>
+            <h3>Initiative Nachhaltiger Campus</h3>
+            <p>Setzt sich für Mehrwegsysteme, Fahrradinfrastruktur und einen Repair-Treff ein.</p>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-date"><span class="d">03</span><span class="m">Deb</span></div>
+          <div>
+            <h3>Debattierclub</h3>
+            <p>Wöchentliches Training in britischem Parlamentsformat, Turniere im Semesterverlauf.</p>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-date"><span class="d">04</span><span class="m">Rad</span></div>
+          <div>
+            <h3>Campusradio</h3>
+            <p>Produziert eine wöchentliche Sendung mit Berichten aus der Hochschulpolitik und Musik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerie">
+      <h2 class="section-title">Impressionen</h2>
+      <p class="section-lead">
+        Die folgenden Motive wurden als Grafiken für diese Übungsseite gestaltet und zeigen keine
+        realen Orte oder Personen.
+      </p>
+
+      <div class="gallery">
+        <figure>
+          <div class="cover cover-lib"></div>
+          <figcaption>Lesesaal in der Bibliothek</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-hall"></div>
+          <figcaption>Großer Hörsaal vor der Vorlesung</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-campus"></div>
+          <figcaption>Innenhof am Von-Melle-Park</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-alster"></div>
+          <figcaption>Abendstimmung an der Alster</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-books"></div>
+          <figcaption>Handapparat im Seminarraum</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-mensa"></div>
+          <figcaption>Mittagsausgabe in der Mensa</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-lab"></div>
+          <figcaption>Verhaltensökonomisches Labor</figcaption>
+        </figure>
+        <figure>
+          <div class="cover cover-sport"></div>
+          <figcaption>Sportplatz am Campus</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Studierendenservice</h4>
+        <ul>
+          <li><a href="index.html#ausweis">Studierendenausweis</a></li>
+          <li><a href="index.html#weitere-angaben">Weitere Angaben</a></li>
+          <li><a href="studium.html">Studium &amp; Fristen</a></li>
+          <li><a href="studium.html#faq">Häufige Fragen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Universität</h4>
+        <ul>
+          <li><a href="aktuelles.html">Aktuelles</a></li>
+          <li><a href="campus.html">Campusleben</a></li>
+          <li><a href="campus.html#termine">Termine</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="impressum.html#datenschutz">Datenschutz</a></li>
+          <li><a href="#" id="open-cookie-settings">Cookie-Einstellungen</a></li>
+          <li><a href="impressum.html#barrierefreiheit">Barrierefreiheit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Private, nicht-offizielle Übungsseite ohne Verbindung zur Universität Hamburg. Kein amtliches
+      Dokument, kein Immatrikulationsnachweis. Alle Inhalte sind frei erfunden.
+    </div>
+  </footer>
+
+  <div class="cookie-overlay" id="cookie-overlay">
+    <div class="cookie-modal">
+      <h2>Cookie-Einstellungen</h2>
+      <p>
+        Wir verwenden auf dieser Seite Cookies und ähnliche Technologien, um grundlegende Funktionen
+        bereitzustellen und die Darstellung zu optimieren. Sie können Ihre Auswahl jederzeit über den
+        Link „Cookie-Einstellungen" im Seitenfuß anpassen.
+      </p>
+
+      <details class="cookie-accordion" data-required>
+        <summary>Technisch notwendige Cookies <span class="toggle-pill">immer aktiv</span></summary>
+        <div class="accordion-body">
+          Diese Kategorie umfasst Cookies und lokale Speicherfunktionen, die für den grundlegenden Betrieb
+          der Seite erforderlich sind. Zur Einordnung: Diese Seite ist eine private, nicht-offizielle
+          Übungsseite mit einer Nachbildung eines Studierendenausweises der Universität Hamburg. Sie
+          besitzt keine rechtliche Gültigkeit als amtliches Ausweisdokument, dient nicht dem Nachweis der
+          Immatrikulation gegenüber Dritten und wird nicht von der Universität Hamburg betrieben, geprüft
+          oder autorisiert. Alle Angebote und Termine sind frei erfunden.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Präferenzen &amp; Anzeige <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Speichert Anzeigeeinstellungen wie zuletzt verwendete Ansichten.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Statistik <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Diese Seite bindet keine externen Statistik- oder Tracking-Dienste ein.
+        </div>
+      </details>
+
+      <div class="cookie-buttons">
+        <button class="btn-necessary" id="btn-necessary" type="button">Nur notwendige</button>
+        <button class="btn-accept-all" id="btn-accept-all" type="button">Alle akzeptieren</button>
+      </div>
+
+      <p class="cookie-fine-print">
+        Mit Klick auf „Alle akzeptieren" oder „Nur notwendige" bestätigen Sie, die Hinweise in den
+        technisch notwendigen Cookies zur Kenntnis genommen zu haben.
+      </p>
+    </div>
+  </div>
+
+  <script src="site.js"></script>
+</body>
+</html>

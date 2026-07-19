@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-danger</title>
+    <g id="icon-danger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(4.000000, 8.000000)">
+            <g id="Group-3" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2.5">
+                <polygon id="Triangle" points="26.3333333 0 52 44 0.666666667 44"></polygon>
+            </g>
+            <path d="M27.5544554,31 L28,16 L25,16 L25.4455446,31 L27.5544554,31 Z M26.5,36.859101 C27.0517241,36.859101 27.5229885,36.6677966 27.9137931,36.2851879 C28.3045977,35.9025793 28.5,35.433014 28.5,34.8764923 C28.5,34.3199706 28.3045977,33.8446082 27.9137931,33.4504053 C27.5229885,33.0562024 27.0517241,32.859101 26.5,32.859101 C25.9252874,32.859101 25.4482759,33.0562024 25.0689655,33.4504053 C24.6896552,33.8446082 24.5,34.3199706 24.5,34.8764923 C24.5,35.433014 24.6896552,35.9025793 25.0689655,36.2851879 C25.4482759,36.6677966 25.9252874,36.859101 26.5,36.859101 Z" id="!" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

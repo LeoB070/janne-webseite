@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>export/img/icons/absprungpunkt-pfeil-rechts</title>
+    <g id="export/img/icons/absprungpunkt-pfeil-rechts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atom/Icon/Pfeil/36px/Offen-Unten" transform="translate(18.000000, 18.000000) rotate(-90.000000) translate(-18.000000, -18.000000) translate(7.500000, 13.000000)" stroke="#ffffff" stroke-width="2">
+            <g id="Farbe" transform="translate(0.000000, -0.000000)">
+                <polyline id="Path-4" transform="translate(10.500000, 5.000000) rotate(90.000000) translate(-10.500000, -5.000000) " points="5.5 -5.5 15.5 5 5.5 15.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

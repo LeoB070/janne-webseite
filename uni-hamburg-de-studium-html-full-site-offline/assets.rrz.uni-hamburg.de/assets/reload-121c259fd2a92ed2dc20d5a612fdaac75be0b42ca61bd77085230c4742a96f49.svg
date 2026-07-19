@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / reload</title>
+    <g id="UHH-Stellenportal-Desktop-UHH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stellenportal-Start" transform="translate(-1168.000000, -954.000000)">
+            <g id="Suche" transform="translate(26.000000, 837.000000)">
+                <g id="Group-14" transform="translate(64.000000, 0.000000)">
+                    <g id="Group-13" transform="translate(0.000000, 36.000000)">
+                        <g id="Group-3" transform="translate(1075.000000, 76.000000)">
+                            <g id="Group" transform="translate(0.000000, 2.000000)">
+                                <g id="reload" transform="translate(9.000000, 9.500000) rotate(-315.000000) translate(-9.000000, -9.500000) translate(4.000000, 2.000000)">
+                                    <path d="M4.86,2.16 C2.17589612,2.16 0,4.33589612 0,7.02 M4.86,11.88 L4.86,11.88 C7.54410388,11.88 9.72,9.70410388 9.72,7.02" id="Oval-45" stroke="#4E4E4E"></path>
+                                    <polygon id="Triangle-6" fill="#4E4E4E" transform="translate(6.345000, 2.295000) scale(-1, 1) translate(-6.345000, -2.295000) " points="7.83 0 7.83 4.59 4.86 2.295"></polygon>
+                                    <polygon id="Triangle-6-Copy" fill="#4E4E4E" points="4.86 9.585 4.86 14.175 1.89 11.88"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

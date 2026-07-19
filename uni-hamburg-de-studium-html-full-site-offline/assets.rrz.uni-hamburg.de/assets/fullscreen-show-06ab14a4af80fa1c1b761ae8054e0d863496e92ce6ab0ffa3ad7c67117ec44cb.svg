@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/Lightbox/Icons/fullscreen-show</title>
+    <g id="Lightbox/Icons/fullscreen-show" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(10.388889, 13.500000)" fill="#4E4E4E">
+            <polygon id="Path-3" points="4.15204103e-13 0 8.16666667 0 8.16666667 2.73913043 2.73913043 2.73913043 2.73913043 7.77777778 4.15204103e-13 7.77777778"></polygon>
+            <polygon id="Path-3-Copy-2" transform="translate(4.083333, 17.111111) scale(1, -1) translate(-4.083333, -17.111111) " points="1.24561231e-12 13.2222222 8.16666667 13.2222222 8.16666667 15.9613527 2.73913043 15.9613527 2.73913043 21 1.24561231e-12 21"></polygon>
+            <polygon id="Path-3-Copy" transform="translate(23.138889, 3.888889) scale(-1, 1) translate(-23.138889, -3.888889) " points="19.0555556 0 27.2222222 0 27.2222222 2.73913043 21.794686 2.73913043 21.794686 7.77777778 19.0555556 7.77777778"></polygon>
+            <polygon id="Path-3-Copy-3" transform="translate(23.138889, 17.111111) scale(-1, -1) translate(-23.138889, -17.111111) " points="19.0555556 13.2222222 27.2222222 13.2222222 27.2222222 15.9613527 21.794686 15.9613527 21.794686 21 19.0555556 21"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Studierendenausweis · Universität Hamburg</title>
+<meta name="theme-color" content="#0271bb" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="uhh-icon.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="uhh-style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="uhh-metabar">
+      <div class="uhh-metabar-inner">
+        <a href="index.html">Universität Hamburg</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="impressum.html#datenschutz">Datenschutz</a>
+      </div>
+    </div>
+    <div class="site-header-top">
+      <a class="site-brand" href="index.html">
+        <img src="uhh-logo-full.png" alt="Universität Hamburg" />
+      </a>
+      <button class="nav-toggle" type="button" aria-hidden="true">Menü</button>
+    </div>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html" class="active">Studierendenservice</a></li>
+        <li><a href="studium.html">Studium</a></li>
+        <li><a href="aktuelles.html">Aktuelles</a></li>
+        <li><a href="campus.html">Campusleben</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <p class="breadcrumb"><a href="index.html">Startseite</a> › <a href="index.html">Studierendenservice</a> › Studierendenausweis</p>
+
+  <main>
+
+    <section id="ausweis" style="margin-top: 28px;">
+      <h1 class="section-title">Mein Studierendenausweis</h1>
+
+      <div class="card-layout">
+        <div class="card">
+          <div class="card-header">
+            <div class="uni-brand">
+              <img class="uni-logo" src="uhh-icon.png" alt="UHH" />
+              <div class="uni-name">Universität<br/>Hamburg</div>
+            </div>
+            <div class="fs-badge">
+              FS:
+              <span class="fs-number">3</span>
+            </div>
+          </div>
+
+          <div class="status-line">An der Universität Hamburg immatrikuliert</div>
+
+          <div class="photo-wrap">
+            <div class="photo-frame">
+              <img id="student-photo" src="photo.jpg" alt="Foto" onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';" />
+              <svg id="photo-fallback" style="display:none; width:60%; height:60%;" viewBox="0 0 24 24" fill="rgba(255,255,255,0.7)">
+                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="field-grid">
+            <div>
+              <div class="field-label">Matrikelnummer</div>
+              <div class="field-value">494-078</div>
+            </div>
+            <div>
+              <div class="field-label">Bachelor of Science</div>
+              <div class="field-value small">Volkswirtschaftslehre</div>
+            </div>
+          </div>
+
+          <div class="three-col">
+            <div>
+              <div class="field-label">Name</div>
+              <div class="field-value small">Janne Mai Wedekind</div>
+            </div>
+            <div>
+              <div class="field-label">Geboren am</div>
+              <div class="field-value small">26/02/2007</div>
+            </div>
+            <div>
+              <div class="field-label">Gültig bis</div>
+              <div class="field-value small">07/2029</div>
+            </div>
+          </div>
+
+          <div class="barcode-wrap">
+            <div class="barcode-box">
+              <svg id="barcode"></svg>
+            </div>
+            <div class="hologram" id="hologram" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-photo-hint" id="add-photo-hint">
+        Kein Foto gefunden. Lege eine Datei <strong>photo.jpg</strong> in denselben Ordner wie diese Seite, um dein Bild anzuzeigen.
+      </div>
+    </section>
+
+    <section id="weitere-angaben">
+      <h2 class="section-title">Weitere Angaben</h2>
+
+      <div class="info-panel">
+        <div class="info-row"><span class="label">STiNE-Benutzername</span><span class="value">jwedekin</span></div>
+        <div class="info-row"><span class="label">Uni-E-Mail-Adresse</span><span class="value">janne.wedekind@studium.uni-hamburg.de</span></div>
+        <div class="info-row"><span class="label">Bibliotheksausweisnummer</span><span class="value">24 0958317 4</span></div>
+        <div class="info-row"><span class="label">Semesterbeitrag</span><span class="value">Bezahlt · SoSe 2026</span></div>
+        <div class="info-row"><span class="label">Prüfungsordnung</span><span class="value">PO 2020</span></div>
+        <div class="info-row"><span class="label">Hochschulsemester</span><span class="value">3</span></div>
+        <div class="info-row"><span class="label">Mensa-Konto</span><span class="value">Guthaben 12,40 €</span></div>
+        <div class="info-row"><span class="label">Sportausweis-Nummer</span><span class="value">HSP-048213</span></div>
+      </div>
+      <p class="info-hint">
+        Alle Werte oben sind frei erdachte, aber realistisch formatierte Platzhalter ohne jede Gültigkeit.
+      </p>
+    </section>
+
+    <section id="semester">
+      <h2 class="section-title">Semester auf einen Blick</h2>
+      <p class="section-lead">
+        Ein kurzer Überblick über das laufende Sommersemester 2026 — Fristen, Belegzahlen und der
+        aktuelle Stand der Prüfungsanmeldungen.
+      </p>
+
+      <div class="stat-row">
+        <div class="stat"><span class="num">6</span><span class="cap">belegte Module</span></div>
+        <div class="stat"><span class="num">30</span><span class="cap">Leistungspunkte</span></div>
+        <div class="stat"><span class="num">4</span><span class="cap">Prüfungen angemeldet</span></div>
+        <div class="stat"><span class="num">18</span><span class="cap">Tage bis Fristende</span></div>
+      </div>
+
+      <div style="margin-top: 22px;" class="table-scroll">
+        <table class="data-table">
+          <thead>
+            <tr><th>Modul</th><th>Dozent:in</th><th>LP</th><th>Prüfung</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Makroökonomik II</td><td>Prof. Dr. H. Reinders</td><td>6</td><td>14.07.2026</td></tr>
+            <tr><td>Ökonometrie I</td><td>Prof. Dr. S. Alkan</td><td>6</td><td>21.07.2026</td></tr>
+            <tr><td>Statistik für VWL</td><td>Dr. M. Brenner</td><td>5</td><td>09.07.2026</td></tr>
+            <tr><td>Öffentliche Finanzen</td><td>Prof. Dr. L. Timm</td><td>6</td><td>28.07.2026</td></tr>
+            <tr><td>Wirtschaftsgeschichte</td><td>Dr. P. Nowak</td><td>4</td><td>Hausarbeit</td></tr>
+            <tr><td>Englisch für Ökonomen</td><td>K. Sandberg, M.A.</td><td>3</td><td>Portfolio</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="news-teaser">
+      <h2 class="section-title">Aktuelles aus dem Studierendenservice</h2>
+      <p class="section-lead">
+        Meldungen rund um Fristen, Services und Veranstaltungen. Alle Beiträge sind erfundene
+        Beispieltexte für diese Übungsseite.
+      </p>
+
+      <div class="news-grid">
+        <a class="news-card" href="aktuelles.html">
+          <div class="cover cover-digital"></div>
+          <div class="news-body">
+            <span class="tag">Service</span>
+            <h3>Rückmeldung für das Wintersemester ab 1. Juni möglich</h3>
+            <p>Der Semesterbeitrag kann ab Anfang Juni überwiesen werden. Wer die Frist verpasst, zahlt eine Säumnisgebühr.</p>
+            <span class="news-meta">28. Mai 2026 · 2 Min. Lesezeit</span>
+          </div>
+        </a>
+        <a class="news-card" href="aktuelles.html">
+          <div class="cover cover-lib"></div>
+          <div class="news-body">
+            <span class="tag">Bibliothek</span>
+            <h3>Längere Öffnungszeiten in der Prüfungsphase</h3>
+            <p>Die Stabi öffnet ab Mitte Juni werktags bis 24 Uhr, am Wochenende bis 22 Uhr.</p>
+            <span class="news-meta">21. Mai 2026 · 1 Min. Lesezeit</span>
+          </div>
+        </a>
+        <a class="news-card" href="campus.html">
+          <div class="cover cover-mensa"></div>
+          <div class="news-body">
+            <span class="tag">Campus</span>
+            <h3>Mensa Von-Melle-Park mit neuem Abendangebot</h3>
+            <p>Ab Juni gibt es dienstags und donnerstags bis 20 Uhr ein warmes Abendessen.</p>
+            <span class="news-meta">14. Mai 2026 · 2 Min. Lesezeit</span>
+          </div>
+        </a>
+      </div>
+
+      <p style="margin-top:18px;"><a href="aktuelles.html" class="btn btn-solid">Alle Meldungen ansehen</a></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Studierendenservice</h4>
+        <ul>
+          <li><a href="index.html#ausweis">Studierendenausweis</a></li>
+          <li><a href="index.html#weitere-angaben">Weitere Angaben</a></li>
+          <li><a href="studium.html">Studium &amp; Fristen</a></li>
+          <li><a href="studium.html#faq">Häufige Fragen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Universität</h4>
+        <ul>
+          <li><a href="aktuelles.html">Aktuelles</a></li>
+          <li><a href="campus.html">Campusleben</a></li>
+          <li><a href="campus.html#termine">Termine</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="impressum.html#datenschutz">Datenschutz</a></li>
+          <li><a href="#" id="open-cookie-settings">Cookie-Einstellungen</a></li>
+          <li><a href="impressum.html#barrierefreiheit">Barrierefreiheit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Private, nicht-offizielle Übungsseite ohne Verbindung zur Universität Hamburg. Kein amtliches
+      Dokument, kein Immatrikulationsnachweis. Alle Inhalte sind frei erfunden.
+    </div>
+  </footer>
+
+  <!-- ---------- Cookie-Consent ---------- -->
+  <div class="cookie-overlay" id="cookie-overlay">
+    <div class="cookie-modal">
+      <h2>Cookie-Einstellungen</h2>
+      <p>
+        Wir verwenden auf dieser Seite Cookies und ähnliche Technologien, um grundlegende Funktionen
+        bereitzustellen, die Darstellung zu optimieren und die Nutzung fortlaufend zu verbessern. Einige
+        dieser Technologien sind für den Betrieb der Seite zwingend erforderlich, während andere uns helfen,
+        unser Angebot zu verbessern und wirtschaftlich zu betreiben. Sie können Ihre Auswahl jederzeit über
+        den Link „Cookie-Einstellungen" im Seitenfuß anpassen.
+      </p>
+
+      <details class="cookie-accordion" data-required>
+        <summary>Technisch notwendige Cookies <span class="toggle-pill">immer aktiv</span></summary>
+        <div class="accordion-body">
+          Diese Kategorie umfasst Cookies und lokale Speicherfunktionen, die für den grundlegenden Betrieb der
+          Seite erforderlich sind, etwa zur Speicherung von Anzeigeeinstellungen, zur Aufrechterhaltung der
+          Sitzung sowie zur technischen Bereitstellung eingebetteter Inhalte. Zur Einordnung: Diese Seite ist
+          eine private, nicht-offizielle digitale Nachbildung eines Studierendenausweises der Universität Hamburg,
+          die ausschließlich der persönlichen Aufbewahrung durch die betreibende Person dient. Sie besitzt
+          keine rechtliche Gültigkeit als amtliches Ausweisdokument, dient nicht dem Nachweis der
+          Immatrikulation gegenüber Dritten und wird nicht von der Universität Hamburg betrieben, geprüft
+          oder autorisiert. Ohne diese Cookies können bestimmte Funktionen der Seite, etwa die Darstellung
+          des Barcodes oder gespeicherte Anzeigeeinstellungen, nicht bereitgestellt werden.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Präferenzen &amp; Anzeige <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Speichert Anzeigeeinstellungen wie Hell-/Dunkelmodus oder zuletzt verwendete Ansichten, damit diese
+          bei einem erneuten Besuch nicht erneut vorgenommen werden müssen.
+        </div>
+      </details>
+
+      <details class="cookie-accordion">
+        <summary>Statistik <span class="toggle-pill">optional</span></summary>
+        <div class="accordion-body">
+          Diese Seite bindet aktuell keine externen Statistik- oder Tracking-Dienste ein. Dieser Abschnitt ist
+          als Platzhalter vorgesehen, falls zu einem späteren Zeitpunkt eine einfache, lokale Zugriffszählung
+          ergänzt werden soll.
+        </div>
+      </details>
+
+      <div class="cookie-buttons">
+        <button class="btn-necessary" id="btn-necessary" type="button">Nur notwendige</button>
+        <button class="btn-accept-all" id="btn-accept-all" type="button">Alle akzeptieren</button>
+      </div>
+
+      <p class="cookie-fine-print">
+        Mit Klick auf „Alle akzeptieren" oder „Nur notwendige" bestätigen Sie, die Hinweise in den
+        technisch notwendigen Cookies zur Kenntnis genommen zu haben.
+      </p>
+    </div>
+  </div>
+
+  <script src="jsbarcode.min.js"></script>
+  <script>
+    // SID-Barcode als visueller Platzhalter (frei erdachte Nummer, keine echte Prüfziffer)
+    JsBarcode("#barcode", "SID4940780239", {
+      format: "CODE128",
+      lineColor: "#1a1a1a",
+      background: "#ffffff",
+      width: 2,
+      height: 60,
+      displayValue: true,
+      fontSize: 14,
+      margin: 0
+    });
+
+    document.getElementById('student-photo').addEventListener('error', function() {
+      document.getElementById('add-photo-hint').style.display = 'block';
+    });
+
+    // Hologramm: reagiert auf Neigung des Handys (Gyroskop), auf Desktop auf Mausbewegung
+    (function() {
+      var root = document.documentElement;
+
+      function clamp(v, min, max) {
+        return Math.max(min, Math.min(max, v));
+      }
+
+      function setHolo(xPercent, yPercent, angleDeg) {
+        root.style.setProperty('--holo-x', xPercent + '%');
+        root.style.setProperty('--holo-y', yPercent + '%');
+        root.style.setProperty('--holo-angle', angleDeg + 'deg');
+      }
+
+      function handleOrientation(e) {
+        var beta = e.beta || 0;   // -180..180 (vor/zurück neigen)
+        var gamma = e.gamma || 0; // -90..90 (links/rechts neigen)
+        var x = clamp(50 + gamma * 1.4, 0, 100);
+        var y = clamp(50 + beta * 0.7, 0, 100);
+        var angle = (gamma * 2 + beta * 2 + 45);
+        setHolo(x, y, angle);
+      }
+
+      function enableTilt() {
+        if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+          DeviceOrientationEvent.requestPermission().then(function(state) {
+            if (state === 'granted') {
+              window.addEventListener('deviceorientation', handleOrientation);
+            }
+          }).catch(function() {});
+        } else if (typeof DeviceOrientationEvent !== 'undefined') {
+          window.addEventListener('deviceorientation', handleOrientation);
+        }
+      }
+
+      document.body.addEventListener('touchstart', enableTilt, { once: true, passive: true });
+
+      // Desktop-Fallback: leichte Parallaxe bei Mausbewegung über die Karte
+      var card = document.querySelector('.card');
+      if (card) {
+        card.addEventListener('mousemove', function(e) {
+          var rect = card.getBoundingClientRect();
+          var x = ((e.clientX - rect.left) / rect.width) * 100;
+          var y = ((e.clientY - rect.top) / rect.height) * 100;
+          setHolo(clamp(x, 0, 100), clamp(y, 0, 100), (x + y));
+        });
+      }
+    })();
+  </script>
+  <script src="site.js"></script>
+</body>
+</html>

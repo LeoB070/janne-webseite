@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12.9270784px" height="18.7661563px" viewBox="0 0 12.9270784 18.7661563" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-ort-24x24</title>
+    <g id="Veranstaltungsbuchung" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-14" transform="translate(-379.5, -1624.3379)">
+            <g id="Group-4" transform="translate(355, 1490)">
+                <g id="icon-ort-24x24" transform="translate(19, 131.604)">
+                    <g id="Group" transform="translate(6, 3.2338)" stroke="#4E4E4E">
+                        <path d="M5.9215404,17.7661562 C10.4909292,10.7962494 11.9270784,10.0740658 11.9270784,6.06600231 C11.9270784,2.79562585 9.19191686,0 5.9215404,0 C2.65116394,0 0,2.65116394 0,5.9215404 C0,10.0740658 1.44823445,10.7802864 5.9215404,17.7661562 Z" id="Oval" stroke-linejoin="round"></path>
+                        <circle id="Oval" cx="5.9215404" cy="6.06600231" r="2.31707577"></circle>
+                    </g>
+                    <rect id="Rectangle" x="0" y="1.42108547e-14" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25.1617596px" height="25.1078613px" viewBox="0 0 25.1617596 25.1078613" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-neue-veranstaltung-36x36</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-neue-veranstaltung-36x36" transform="translate(0.75, 0.75)">
+            <g id="Group-3" stroke="#FFFFFF" stroke-width="1.5">
+                <g id="Group-2">
+                    <path d="M9.93533247,19.8283671 L2,19.8283671 C0.8954305,19.8283671 0,18.9329366 0,17.8283671 L0,4.3604931 C0,3.2559236 0.8954305,2.3604931 2,2.3604931 L18.55044,2.3604931 C19.6550095,2.3604931 20.55044,3.2559236 20.55044,4.3604931 L20.55044,10.3185094" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval" stroke-linecap="round" stroke-linejoin="round" cx="16.4601882" cy="16.4062899" r="7.20157142"></circle>
+                    <line x1="6.21368855" y1="0" x2="6.21368855" y2="4.3779295" id="Path" stroke-linecap="round"></line>
+                    <line x1="14.7713446" y1="0" x2="14.7713446" y2="4.3779295" id="Path-Copy" stroke-linecap="round"></line>
+                    <g id="Group" transform="translate(12.7552, 12.7013)">
+                        <line x1="3.70498957" y1="0" x2="3.70498957" y2="7.40997915" id="Path-14"></line>
+                        <line x1="3.70498957" y1="0.0120447049" x2="3.70498957" y2="7.42202385" id="Path-14" transform="translate(3.705, 3.717) rotate(-90) translate(-3.705, -3.717)"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(3.4897, 7.0671)" fill="#FFFFFF">
+                <g id="Group-4" transform="translate(2.9917, 0)">
+                    <circle id="Oval-Copy" cx="3.83310212" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy-3" cx="0.84141266" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy-2" cx="6.82479157" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy-4" cx="9.81648103" cy="0.84141266" r="1"></circle>
+                </g>
+                <g id="Group-4-Copy" transform="translate(0, 2.597)">
+                    <circle id="Oval" cx="0.84141266" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy" cx="3.83310212" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy" cx="6.82479157" cy="0.84141266" r="1"></circle>
+                </g>
+                <g id="Group-4-Copy-2" transform="translate(0, 5.1939)">
+                    <circle id="Oval" cx="0.84141266" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy" cx="3.83310212" cy="0.84141266" r="1"></circle>
+                </g>
+                <g id="Group-4-Copy-3" transform="translate(0, 7.7909)">
+                    <circle id="Oval" cx="0.84141266" cy="0.84141266" r="1"></circle>
+                    <circle id="Oval-Copy" cx="3.83310212" cy="0.84141266" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

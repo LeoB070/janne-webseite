@@ -1,0 +1,292 @@
+/* ==========================================================================
+   Restyling angelehnt an das echte Layout von uni-hamburg.de/studium.html
+   Gilt NUR fuer die Inhaltsseiten (nicht fuer index.html / den Studierendenausweis).
+   Farben und Schrift stammen aus dem offiziellen Farbschema der Universitaet:
+   Blau #0271bb (Hauptfarbe Navigation/Footer), Rot #c40017 (Akzent), Grau #4e4e4e (Text).
+   ========================================================================== */
+
+@font-face {
+  font-family: "TheSansUHH";
+  src: url("fonts/TheSansUHHRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansUHHBold";
+  src: url("fonts/TheSansUHHBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansUHHBoldCaps";
+  src: url("fonts/TheSansUHHBoldCaps.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --uhh-blue: #0271bb;
+  --uhh-blue-dark: #025a94;
+  --uhh-ink: #4e4e4e;
+  --uhh-panel: #f3f3f3;
+  --uhh-dark: #3b515c;
+}
+
+body {
+  font-family: "TheSansUHH", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  color: var(--uhh-ink);
+  background: #fff;
+}
+
+/* ---------- Kopfbereich: Metaleiste + Logozeile + Hauptnavigation ---------- */
+
+.uhh-metabar {
+  background: var(--uhh-blue);
+  color: #fff;
+}
+
+.uhh-metabar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 18px;
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+}
+
+.uhh-metabar a {
+  display: block;
+  padding: 8px 0;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.uhh-metabar a:hover { text-decoration: underline; }
+
+.site-header {
+  background: #fff;
+  color: var(--uhh-ink);
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.site-header-top {
+  max-width: 1180px;
+  padding: 18px 18px;
+}
+
+.site-brand {
+  color: var(--uhh-ink);
+  gap: 12px;
+}
+
+.site-brand img {
+  width: auto;
+  height: 34px;
+  border-radius: 0;
+}
+
+.nav-toggle {
+  border-color: #ccc;
+  color: var(--uhh-ink);
+}
+
+.site-nav {
+  border-top: 1px solid #e7e7e7;
+  background: #fff;
+}
+
+.site-nav ul {
+  max-width: 1180px;
+  gap: 4px;
+}
+
+.site-nav a {
+  font-family: "TheSansUHHBoldCaps", sans-serif;
+  font-size: 13.5px;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--uhh-ink);
+  padding: 14px 14px;
+  border-bottom: 3px solid transparent;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--uhh-blue);
+  border-bottom-color: var(--uhh-blue);
+}
+
+.breadcrumb {
+  max-width: 1180px;
+  color: #767676;
+  font-size: 12.5px;
+  border-bottom: 1px solid #eee;
+}
+
+.breadcrumb a { color: var(--uhh-blue); }
+
+/* ---------- Layout-Grundraster ---------- */
+
+main { max-width: 1180px; }
+
+.uhh-metabar-inner,
+.site-header-top,
+.site-nav ul,
+.breadcrumb,
+main,
+.hero-inner,
+.footer-inner,
+.uhh-footer-legal-inner {
+  max-width: 1180px;
+}
+
+.page-notice-inner { max-width: 1180px; }
+
+/* ---------- Hero / Einstiegsbereich ---------- */
+
+.hero {
+  background: var(--uhh-panel);
+  color: var(--uhh-ink);
+}
+
+.hero::after { display: none; }
+
+.hero-kicker {
+  color: var(--uhh-blue);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.hero h1 {
+  font-family: "TheSansUHHBoldCaps", sans-serif;
+  font-weight: normal;
+  color: #222;
+  letter-spacing: 0.01em;
+}
+
+.hero p { color: #555; }
+
+.btn {
+  font-family: "TheSansUHHBoldCaps", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  border-radius: 2px;
+}
+
+.btn-primary { background: var(--uhh-blue); color: #fff; }
+.btn-ghost { border-color: var(--uhh-blue); color: var(--uhh-blue); }
+.btn-solid { background: var(--uhh-blue); color: #fff; }
+
+/* ---------- Abschnittstitel ---------- */
+
+.section-title {
+  font-family: "TheSansUHHBold", sans-serif;
+  font-weight: normal;
+  color: #222;
+  border-bottom-color: var(--uhh-blue);
+}
+
+.section-lead { color: #666; }
+
+/* ---------- Kachel-Look fuer Karten (News, Beratung, etc.) ---------- */
+
+.news-card,
+.sidebar-box,
+.prose,
+.impressum-box,
+.event,
+.archive-item,
+.faq,
+.newsletter-box,
+.article-list,
+.data-table {
+  border-color: #e2e2e2;
+  border-radius: 2px;
+}
+
+.news-card:hover {
+  border-color: #d5d5d5;
+  box-shadow: 0 6px 18px rgba(2, 113, 187, 0.12);
+}
+
+.tag,
+.article-date .d,
+.stat .num,
+.sidebar-box h4,
+.event .when,
+.archive-item .issue {
+  color: var(--uhh-blue);
+}
+
+.article-date { border-right-color: var(--uhh-blue); }
+.sidebar-box h4 { border-bottom-color: var(--uhh-blue); }
+
+.faq summary::after { color: var(--uhh-blue); }
+
+.pull-quote { border-left-color: var(--uhh-blue); }
+
+.prose h2 { color: #222; font-family: "TheSansUHHBold", sans-serif; font-weight: normal; }
+
+.form-row input:focus {
+  outline-color: var(--uhh-blue);
+  border-color: var(--uhh-blue);
+}
+
+.newsletter-box { border-top-color: var(--uhh-blue); }
+
+.impressum-box h3 { color: var(--uhh-blue); }
+
+/* ---------- Fusszeile: blauer Block + dunkler Abschlussstreifen ---------- */
+
+.site-footer {
+  background: var(--uhh-blue);
+  color: #eaf3fb;
+  margin-top: 60px;
+}
+
+.footer-col h4 {
+  color: #fff;
+  font-family: "TheSansUHHBoldCaps", sans-serif;
+  font-weight: normal;
+}
+
+.footer-col a { color: #d9ecfa; }
+.footer-col a:hover { color: #fff; }
+
+.footer-bottom {
+  background: var(--uhh-dark);
+  border-top: none;
+  color: #b9c3c9;
+}
+
+/* ---------- Cookie-Modal: dezente Farbanpassung ---------- */
+
+.btn-accept-all { background: var(--uhh-blue); }
+.cookie-modal h2::before { content: ""; }
+
+/* ---------- Studierendenausweis-Karte: Blauton statt Rot ----------
+   Layout, Felder, Foto, Barcode und Hologramm-Funktion bleiben unveraendert,
+   nur die Kartenfarbe folgt jetzt dem echten UHH-Blau. ---------- */
+
+.card {
+  background: linear-gradient(135deg, var(--uhh-blue-dark), var(--uhh-blue) 65%, #1f8fdb);
+}
+
+.photo-frame {
+  border-color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.15);
+}
+
+.info-panel { border-color: #e2e2e2; }
+.info-row .label { color: #666; }

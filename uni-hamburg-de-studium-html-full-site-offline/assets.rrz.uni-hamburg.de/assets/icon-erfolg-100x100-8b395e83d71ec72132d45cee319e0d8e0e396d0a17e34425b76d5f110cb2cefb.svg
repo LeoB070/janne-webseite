@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81.199368px" height="82.4881258px" viewBox="0 0 81.199368 82.4881258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-erfolg-100x100</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-erfolg-100x100" transform="translate(-9.6212, -8.3332)" fill-rule="nonzero">
+            <g id="Atom/Icon/Status/24px/Erfolg-Blau" transform="translate(9.6212, 8.3332)">
+                <g id="Group-2" transform="translate(0, -0)">
+                    <ellipse id="Oval" fill="#FFFFFF" cx="40.378788" cy="41.66682" rx="36.5885417" ry="36.8783069"></ellipse>
+                    <g id="kreis-check-blau" transform="translate(0, 0)" fill="#0271BB">
+                        <path d="M35.0923297,62.4736983 L19.1548297,46.2964496 L23.4517047,41.8255501 L35.0923297,53.6112644 L63.3084755,24.9472433 L67.4621214,29.6033279 L35.0923297,62.4736983 Z M40.6261839,7.63748767e-05 C24.2030723,-0.0105482959 9.39122839,10.0312923 3.09907497,25.4420394 C-3.19307846,40.8527865 0.273965173,58.5966396 11.8831348,70.3976514 C23.4923045,82.1986632 40.9566817,85.7321238 56.1306701,79.3499844 C71.3046584,72.967845 81.1992349,57.9273388 81.1992349,41.2435396 C81.2268287,30.301089 76.9619339,19.798313 69.3477698,12.0583244 C61.7336056,4.31833581 51.3976742,-0.0209938556 40.6261839,7.63748767e-05 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

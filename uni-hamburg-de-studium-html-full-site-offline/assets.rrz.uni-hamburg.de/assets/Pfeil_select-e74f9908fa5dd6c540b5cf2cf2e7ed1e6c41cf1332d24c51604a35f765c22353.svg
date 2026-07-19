@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button / Select / dropdown</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Selectfeld-/-Dropdown" transform="translate(-306.000000, -1.000000)">
+            <g id="Selectfeld">
+                <g id="Button-/-Select-/-dropdown" transform="translate(306.000000, 1.000000)">
+                    <g>
+                        <g id="Group-14" fill="#0271BB">
+                            <g id="Group-13">
+                                <rect id="Rectangle" x="0" y="0" width="23" height="34"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/navigation/dropdown---open" transform="translate(11.500000, 17.000000) rotate(-180.000000) translate(-11.500000, -17.000000) translate(6.000000, 14.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M3.17548407,7.81204259 C3.28187353,7.93238249 3.4262397,8 3.57678088,8 C3.72732205,8 3.87168822,7.93238249 3.97807768,7.81204259 L7.83364665,3.45896113 C7.94015453,3.33875503 8,3.17564025 8,3.00554852 C8,2.83545679 7.94015453,2.67234201 7.83364665,2.55213591 L3.97807768,-1.80094555 C3.83598513,-1.96962681 3.62409125,-2.03794623 3.42460856,-1.97939662 C3.22512587,-1.92084701 3.06945093,-1.74464349 3.01798392,-1.5191511 C2.96651691,-1.29365872 3.02735822,-1.05436769 3.17690208,-0.894120338 L6.63117424,3.00554852 L3.17690208,6.90521738 C3.07020601,7.02521073 3.01010533,7.18820609 3.00983935,7.3582979 C3.00957338,7.52838971 3.06916393,7.69162401 3.17548407,7.81204259 Z" id="Shape" transform="translate(5.500000, 3.000000) rotate(-90.000000) translate(-5.500000, -3.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
